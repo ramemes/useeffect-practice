@@ -14,7 +14,8 @@ const Task2 = () => {
       console.log(counter, "<<< counter here");
     }
     //Do not change code above this line
-  });
+
+  },[]);
 
   return (
     <div>
